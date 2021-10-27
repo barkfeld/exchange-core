@@ -59,7 +59,7 @@
         <hdr.histogram.version>2.1.12</hdr.histogram.version>
         <cucumber.version>5.4.2</cucumber.version>
         <lz4.java>1.7.1</lz4.java>
-        <agrona.version>1.4.1</agrona.version>
+        <agrona.version>1.12.0</agrona.version>
         <lombok.version>1.18.12</lombok.version>
         <slf4j.version>1.7.30</slf4j.version>
         <logback.version>1.2.3</logback.version>
@@ -309,7 +309,7 @@
                                 </goals>
                                 <configuration>
                                     <target>
-                                        <jar destfile="${project.build.directory}/${project.build.finalName}-sources.jar" basedir="${delombok.output}" />
+                                        <jar destfile="${project.build.directory}/${project.build.finalName}-sources.jar" basedir="${delombok.output}"/>
                                     </target>
                                 </configuration>
                             </execution>
