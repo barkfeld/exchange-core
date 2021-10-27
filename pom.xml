@@ -55,7 +55,7 @@
         <lmax.com.lmax.disruptor.version>3.4.2</lmax.com.lmax.disruptor.version>
         <openhft.affinity.version>3.2.2</openhft.affinity.version>
         <openhft.chronicle.wire.version>2.19.1</openhft.chronicle.wire.version>
-        <eclipse.collections.version>10.2.0</eclipse.collections.version>
+        <eclipse.collections.version>10.4.0</eclipse.collections.version>
         <hdr.histogram.version>2.1.12</hdr.histogram.version>
         <cucumber.version>5.4.2</cucumber.version>
         <lz4.java>1.7.1</lz4.java>
@@ -309,7 +309,7 @@
                                 </goals>
                                 <configuration>
                                     <target>
-                                        <jar destfile="${project.build.directory}/${project.build.finalName}-sources.jar" basedir="${delombok.output}" />
+                                        <jar destfile="${project.build.directory}/${project.build.finalName}-sources.jar" basedir="${delombok.output}"/>
                                     </target>
                                 </configuration>
                             </execution>
