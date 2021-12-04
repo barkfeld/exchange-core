@@ -124,7 +124,7 @@
         <dependency>
             <groupId>org.eclipse.collections</groupId>
             <artifactId>eclipse-collections-api</artifactId>
-            <version>${eclipse.collections.version}</version>
+            <version>10.4.0</version>
         </dependency>
 
         <dependency>
@@ -309,7 +309,7 @@
                                 </goals>
                                 <configuration>
                                     <target>
-                                        <jar destfile="${project.build.directory}/${project.build.finalName}-sources.jar" basedir="${delombok.output}" />
+                                        <jar destfile="${project.build.directory}/${project.build.finalName}-sources.jar" basedir="${delombok.output}"/>
                                     </target>
                                 </configuration>
                             </execution>
